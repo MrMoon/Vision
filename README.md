@@ -20,7 +20,9 @@ That problem is called the Super Resolution problem, SR for short, which is esse
 <h2>Projections</h2>
 
 <h3>System Context View</h3>
-   ![System Context View](./Models/SystemContextViewDiagram.png "System Context View")
+
+![System Context View](./Models/SystemContextViewDiagram.png "System Context View")
 
 <h3>Gantt Chart</h3>
-  ![Gantt Chart](./Models/VisionGanttChart.png)
+
+![Gantt Chart](./Models/VisionGanttChart.png)
