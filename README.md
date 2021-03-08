@@ -24,3 +24,6 @@ That problem is called the Super Resolution problem, SR for short, which is esse
 
 <h3>Gantt Chart</h3>
   ![Gantt Chart](./Models/VisionGanttChart.png)
+
+<h3>Network Diagram</h3>
+  ![Gantt Chart](./Models/NetworkDiagram.png)
