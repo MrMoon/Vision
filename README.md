@@ -20,10 +20,13 @@ That problem is called the Super Resolution problem, SR for short, which is esse
 <h2>Projections</h2>
 
 <h3>System Context View</h3>
+
   ![System Context View](./Models/SystemContextViewDiagram.png "System Context View")
 
 <h3>Gantt Chart</h3>
+
   ![Gantt Chart](./Models/VisionGanttChart.png)
 
 <h3>Network Diagram</h3>
+
   ![Network Diagram](./Models/NetworkDiagram.png)
