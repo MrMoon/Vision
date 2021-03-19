@@ -15,4 +15,4 @@ That problem is called the Super Resolution problem, SR for short, which is esse
 
 - "Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: how do we recover the finer texture details when we super-resolve at large upscaling factors?", [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/pdf/1609.04802.pdf)
 
-# [Documentation](https://docs.google.com/document/d/1OjuSztAUr1YEyZFzIZ0u0HcZqPbf8UQ8npz4lpU8gts/edit?usp=sharing)
+# To read more about the project [documentation](https://docs.google.com/document/d/1OjuSztAUr1YEyZFzIZ0u0HcZqPbf8UQ8npz4lpU8gts/edit?usp=sharing)
