@@ -23,5 +23,5 @@ That problem is called the Super Resolution problem, SR for short, which is esse
 #### Gantt Chart - Phase Two
 ![Gantt Chart](./Models/VisionPhase2GanttChart.png)
 
-#### Network Diagram-Phase One
+#### Network Diagram - Phase One
 ![Network Diagram](./Models/NetworkDiagram.png)
