@@ -20,8 +20,8 @@ That problem is called the Super Resolution problem, SR for short, which is esse
 #### System Context View
 ![System Context View](./Models/SystemContextViewDiagram.png "System Context View")
 
-#### Gantt Chart
+#### Gantt Chart (Phase Two)
 ![Gantt Chart](./Models/VisionPhase2GanttChart.png)
 
-#### Network Diagram
+#### Network Diagram (Phase One)
 ![Network Diagram](./Models/NetworkDiagram.png)
