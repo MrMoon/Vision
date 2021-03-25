@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T19:17:49.379Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="rnxuwySzVopgxR2uPJVY" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T19:20:20.047Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="dowy9VO2QVPL5n6PzT4u" version="14.5.1" type="github">
   <diagram id="_sDNrL10AUSJifHvgnsC" name="Page-1">
     <mxGraphModel dx="2031" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-dmqIPmsJhzEoFDKgp8E-1" value="Image" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="400" y="270" width="190" height="150" as="geometry" />
+          <mxGeometry x="112" y="260" width="190" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-dmqIPmsJhzEoFDKgp8E-2" value="- imageWidth: Float&#xa;- imageHeight: Float&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-dmqIPmsJhzEoFDKgp8E-1" vertex="1">
           <mxGeometry y="26" width="190" height="44" as="geometry" />
@@ -21,11 +21,11 @@
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.023;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhNg0i442V6qFYGz1hZX-2" target="vhNg0i442V6qFYGz1hZX-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="770" y="310" as="targetPoint" />
+            <mxPoint x="482" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-1" value="Video" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="415" y="130" width="160" height="110" as="geometry" />
+          <mxGeometry x="127" y="120" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-2" value="- videoLength: Integer&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vhNg0i442V6qFYGz1hZX-1">
           <mxGeometry y="26" width="160" height="34" as="geometry" />
@@ -37,7 +37,7 @@
           <mxGeometry y="68" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-5" value="Resource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="784" y="150" width="280" height="270" as="geometry" />
+          <mxGeometry x="496" y="140" width="280" height="270" as="geometry" />
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-6" value="- resourceId: UUID&#xa;- resourceName: String&#xa;- uploadDate: Date&#xa;- sizeInBytes: Integer&#xa;- resourceUrl: URI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vhNg0i442V6qFYGz1hZX-5">
           <mxGeometry y="26" width="280" height="84" as="geometry" />
@@ -52,7 +52,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-12" value="ImageMetadata" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="810" width="310" height="150" as="geometry" />
+          <mxGeometry x="52" y="800" width="310" height="150" as="geometry" />
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-13" value="- imageID: UUID&#xa;- imageInfo: Map&lt;Coordinates , List&lt;String&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vhNg0i442V6qFYGz1hZX-12">
           <mxGeometry y="26" width="310" height="44" as="geometry" />
@@ -64,7 +64,7 @@
           <mxGeometry y="78" width="310" height="72" as="geometry" />
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-21" value="Metadata" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="790" width="280" height="270" as="geometry" />
+          <mxGeometry x="442" y="780" width="280" height="270" as="geometry" />
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-22" value="- resourceId: UUID&#xa;- resourceName: String&#xa;- uploadDate: Date&#xa;- sizeInBytes: Integer&#xa;- resourceUrl: URI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vhNg0i442V6qFYGz1hZX-21">
           <mxGeometry y="26" width="280" height="84" as="geometry" />
@@ -76,7 +76,7 @@
           <mxGeometry y="118" width="280" height="152" as="geometry" />
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-25" value="Coordinates" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="585" width="220" height="130" as="geometry" />
+          <mxGeometry x="462" y="575" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-26" value="- x: Float&#xa;- y: Float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vhNg0i442V6qFYGz1hZX-25">
           <mxGeometry y="26" width="220" height="44" as="geometry" />
@@ -89,8 +89,8 @@
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-32" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.007;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhNg0i442V6qFYGz1hZX-12" target="vhNg0i442V6qFYGz1hZX-28">
           <mxGeometry x="-0.8136" y="-5" relative="1" as="geometry">
-            <mxPoint x="195" y="679.5799999999999" as="sourcePoint" />
-            <mxPoint x="355" y="679.5799999999999" as="targetPoint" />
+            <mxPoint x="-93" y="669.5799999999999" as="sourcePoint" />
+            <mxPoint x="67" y="669.5799999999999" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
