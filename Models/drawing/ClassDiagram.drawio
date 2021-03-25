@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T19:17:06.194Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="BfyGu8_Za441-_zfrdDz" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T19:17:49.379Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="rnxuwySzVopgxR2uPJVY" version="14.5.1" type="github">
   <diagram id="_sDNrL10AUSJifHvgnsC" name="Page-1">
-    <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,21 +62,6 @@
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-15" value="+ getImageInfoByCoordinates(): List&lt;String&gt;&#xa;+ getAllCoordinates(): Coordinates&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vhNg0i442V6qFYGz1hZX-12">
           <mxGeometry y="78" width="310" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="vhNg0i442V6qFYGz1hZX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="vhNg0i442V6qFYGz1hZX-18" target="vhNg0i442V6qFYGz1hZX-22" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vhNg0i442V6qFYGz1hZX-17" value="VideoMetadata" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="815" width="258" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="vhNg0i442V6qFYGz1hZX-18" value="- moments: Map&lt;Integer , List&lt;String&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vhNg0i442V6qFYGz1hZX-17">
-          <mxGeometry y="26" width="258" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="vhNg0i442V6qFYGz1hZX-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="vhNg0i442V6qFYGz1hZX-17">
-          <mxGeometry y="60" width="258" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="vhNg0i442V6qFYGz1hZX-20" value="+ getMomentsTimes(): Integer&#xa;+ getMomentByTime(): List&lt;String&gt;&#xa;+ addMoment(): void&#xa;+ removeMoment(): void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vhNg0i442V6qFYGz1hZX-17">
-          <mxGeometry y="68" width="258" height="72" as="geometry" />
         </mxCell>
         <mxCell id="vhNg0i442V6qFYGz1hZX-21" value="Metadata" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="790" width="280" height="270" as="geometry" />
