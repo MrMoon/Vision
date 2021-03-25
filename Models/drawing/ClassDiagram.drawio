@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T13:28:53.965Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.0" etag="YJ34tYDNrTJueS2eGiSC" type="github"><diagram id="_sDNrL10AUSJifHvgnsC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-25T13:45:18.205Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="YqxUMvVzNB65oX8xm4_Y" version="14.5.0" type="github">
+  <diagram id="_sDNrL10AUSJifHvgnsC" name="Page-1">
+    <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-dmqIPmsJhzEoFDKgp8E-1" value="Image" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="280" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-dmqIPmsJhzEoFDKgp8E-2" value="- fileName: String&#xa;- uploadDate: Date&#xa;- sizeInBytes: Integer&#xa;- imageUrl: URI&#xa;- imageWidth: Float&#xa;- imageHeight: Float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-dmqIPmsJhzEoFDKgp8E-1">
+          <mxGeometry y="26" width="280" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="-dmqIPmsJhzEoFDKgp8E-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="-dmqIPmsJhzEoFDKgp8E-1">
+          <mxGeometry y="120" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-dmqIPmsJhzEoFDKgp8E-4" value="+ getFileName(): String&#xa;+ getUploadDate(): Date&#xa;+ getSizeInBytes(): Integer&#xa;+ getImageURI(): URI&#xa;+ getImageInfo(): String&#xa;+ setFileName(): void&#xa;+ setUploadDate(): void&#xa;+ setSizeInBytes(): void&#xa;+ setImageURI(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-dmqIPmsJhzEoFDKgp8E-1">
+          <mxGeometry y="128" width="280" height="142" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
