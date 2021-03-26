@@ -4,7 +4,7 @@ Imagine taking an amazing picture, and you get home exited to put that picture o
 
 That problem is called the Super Resolution problem, SR for short, which is essentially just taking a low resolution picture and converting it to a high resolution picture, with magic of course. It might seem like an easy problem to solve; because of the fact that the requirement are simple, but it’s not easy, it’s simple, but not easy, there are a lot of details that we have to care of in order to produce the same details in both the lower resolution picture and the higher resolution one, to give an example, if the lower resolution picture is a picture of a licence plate of a car, we have to make sure that we keep that license plate correct and not lose some information from it.
 
-Full Project [Documentation, Assets, and whatnot](https://drive.google.com/drive/folders/1OjceleZeQdbJNNLl3PwyZCUki-oCw0aB?usp=sharing)
+Project [Documentation](https://docs.google.com/document/d/1OjuSztAUr1YEyZFzIZ0u0HcZqPbf8UQ8npz4lpU8gts/edit?usp=sharing)
 
 # References 
 - "Recently, powerful deep learning algorithms have been applied to SISR and have achieved state-of-the-art performance. In this survey, we review representative deep learning-based SISR methods and group them into two categories according to their contributions to two essential aspects of SISR: the exploration of efficient neural network architectures for SISR and the development of effective optimization objectives for deep SISR learning" [Deep Learning for Single Image Super-Resolution: A Brief Review](https://arxiv.org/pdf/1808.03344.pdf)
