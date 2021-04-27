@@ -1,6 +1,6 @@
 # vision
 
-Vision End User Applications
+Vision Front-End Beautiful Application
 
 ## Getting Started
 
