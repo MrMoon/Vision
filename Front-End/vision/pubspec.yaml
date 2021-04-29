@@ -1,5 +1,5 @@
-name: vision
-description: Vision Front-End Beautiful Application
+name: vision_beauty
+description: Vision Beauty Application (Front-End)
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -32,6 +32,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^1.1.8+4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
