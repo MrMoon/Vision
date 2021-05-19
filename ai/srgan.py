@@ -14,4 +14,9 @@ Original file is located at
 
 !pip install -r requirements.txt
 
-!python infer.py --image_dir 'path/to/your/image/directory' --output_dir 'path/to/save/super/resolution/images'
+# Commented out IPython magic to ensure Python compatibility.
+# %cd tools/
+!python video_to_image.py --input $VIDEO_PATH
+# %cd ../
+
+!python infer.py --image_dir 'tools/' --output_dir 'output/'
