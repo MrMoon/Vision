@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T18:38:01.182Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="lnGtxSxInhX48c1PJxH-" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T18:41:02.326Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0D9dyJWgn-0X2bmQwIgc" version="14.6.13" type="github">
   <diagram id="GcFdVZIBcZL0ZfAYzjmY" name="Page-1">
-    <mxGraphModel dx="2370" dy="1388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2ZgZP0qbv81xkAc-GTpQ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="350" y="340" width="280" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="2ZgZP0qbv81xkAc-GTpQ-2" value="Denoise Image" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="2ZgZP0qbv81xkAc-GTpQ-2" value="Denoise Video" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="364" y="512.75" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2ZgZP0qbv81xkAc-GTpQ-3" value="Denoise Video" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="2ZgZP0qbv81xkAc-GTpQ-3" value="Denoise Image" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="512.75" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2ZgZP0qbv81xkAc-GTpQ-4" value="Enhance Image" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
@@ -51,6 +51,18 @@
         </mxCell>
         <mxCell id="2ZgZP0qbv81xkAc-GTpQ-15" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;&lt;font color=&quot;#b00020&quot;&gt;Vis&lt;/font&gt;ion&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kLnPkvOkzj_JGM-2O5Uj-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2ZgZP0qbv81xkAc-GTpQ-4" target="2ZgZP0qbv81xkAc-GTpQ-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="650" as="sourcePoint" />
+            <mxPoint x="830" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kLnPkvOkzj_JGM-2O5Uj-6" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2ZgZP0qbv81xkAc-GTpQ-5" target="2ZgZP0qbv81xkAc-GTpQ-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="690" as="sourcePoint" />
+            <mxPoint x="560" y="690" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
