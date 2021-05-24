@@ -1,3 +1,5 @@
+# AWS Lambda function to call the DeepAI Super Resolution API
+
 import urllib.request
 import json
 import os
